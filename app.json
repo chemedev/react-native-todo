@@ -1,27 +1,27 @@
 {
   "expo": {
-    "name": "myproject",
-    "slug": "myproject",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "MechellDo",
+    "slug": "MechDo",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/appicon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#333"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.mechdo.mechelldo",
+      "versionCode": 1
+    },
     "ios": {
+      "bundleIdentifier": "com.mechdo.mechelldo",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     }
   }
